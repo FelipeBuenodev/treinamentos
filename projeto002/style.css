@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Outfit:wght@300;400;600 & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sem serifa;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+}
+
+.conteiner{
+    background-color: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    width: 350px;
+    
+}
+
+.elementos{
+    
+}
+
+.imagem > img{
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.view{
+    transform: translate(-50%, -50%);
+}
+
+.view:hover{
+    display: inline-block;
+}
+
+
